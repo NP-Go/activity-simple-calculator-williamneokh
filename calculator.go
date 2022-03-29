@@ -35,11 +35,11 @@ func main() {
 	var process string
 	var result int
 	fmt.Println("Enter an integer: ")
-	fmt.Scanln(&a)
+	_, _ = fmt.Scanln(&a)
 	fmt.Println("Enter process: (+, -, *, /)")
-	fmt.Scanln(&process)
+	_, _ = fmt.Scanln(&process)
 	fmt.Println("Enter an integer: ")
-	fmt.Scanln(&b)
+	_, _ = fmt.Scanln(&b)
 
 	//Insert code here
 	switch process {
